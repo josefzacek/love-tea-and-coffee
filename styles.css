@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	height: auto;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	font-family:"Georgia", Times New Roman, Times, serif;
+	font-size:10pt;
+}
+#logo {
+	width:141px;
+	height:10px;
+	position:relative;
+	top:-10px;
+	left:100px;
+	
+}
+#wrapper #header {
+	height: 73px;
+	width: 572px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 220px;
+}
+#wrapper #inner_wrapper {
+	background-color: #FFF;
+	border: 3px solid #e9e9e9;
+	height: 700px;
+	width: 978px;
+	margin-left:auto;
+	margin-right:auto;
+	clear: right;
+}
+#wrapper #banner {
+	margin-right: auto;
+	margin-left: auto;
+	height: 150px;
+	width: 900px;
+	margin-top: 20px;
+	clear: right;
+}
+/*navbar*/
+#wrapper #inner_wrapper #navbar {
+	width: 170px;
+	float: left;
+	/* [disabled]height: 270px; */
+	margin-left:38px;
+	margin-top: 10px;
+}
+#navbar .text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #913333;
+	font-size: 14pt;
+}
+#wrapper #inner_wrapper #navbar li {
+	list-style-type: none;
+}
+#wrapper #inner_wrapper #navbar a:link, a:visited {
+	text-decoration:none;
+	outline:none;
+}
+#wrapper #inner_wrapper #navbar .small_text {
+	margin-bottom: 7px;
+	margin-left:10px;
+	position:relative;
+	top:-3px;
+	color: #fab10d;
+	font-size: 12pt;
+	font-style: italic;
+}
+#wrapper #inner_wrapper #navbar ul {
+	margin:0px;
+	padding:0px;
+}
+#wrapper #inner_wrapper #contact_info_col {
+	background-color: #fcc549;
+	float: left;
+	height: 410px;
+	width: 206px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 19px;
+	padding-top: 19px;
+}
+
+#wrapper #inner_wrapper #contact_info_col p {
+	color: #913333;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+#wrapper #inner_wrapper #contact_info_col p .small_text {
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 10pt;
+	margin-left: 7px;
+}
+#wrapper #footer {
+	text-align: right;
+	margin-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin-top: 5px;
+}
+#wrapper #footer a:link, a:visited {
+	color: #000;
+}
+/*main structure shot*/
+
+
+/*home page content*/
+#wrapper #inner_wrapper #home_content {
+	background-color: #FFF;
+	border: 3px solid #e9e9e9;
+	width: 465px;
+	height: auto;
+	float:left;
+	margin-top: 10px;
+	
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+#home_content h2{
+	color:#913333;
+	margin-bottom:2px;
+	margin-top:5px;
+}
+#home_content p{
+	margin-top:2px;	
+}
+
+/* */
+
+	
+#wrapper #inner_wrapper #home_content #contact_form form .cont_1 {
+	width: 200px;
+	float: left;
+}
+#wrapper #inner_wrapper #home_content #contact_form form .message {
+	width: 260px;
+	float: left;
+}
+#wrapper #inner_wrapper #home_content #contact_form form .message .button {
+	float: right;
+}
